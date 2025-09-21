@@ -1,0 +1,117 @@
+Build a complete full-stack web application for a One-Stop Personalized Career & Education Advisor. The app should include the following pages and features:
+
+Core Features
+
+Authentication System
+
+Login and Sign-up page using email and password.
+
+Store user data securely in a SQLite database.
+
+"Forgot password" functionality.
+
+Home Page (Dashboard Overview)
+
+A personalized welcome message like “Welcome, [User's Name]!”.
+
+Quick access buttons:
+
+Take Career Assessment
+
+View Recommendations
+
+Explore Courses
+
+Section for trending courses and career tips.
+
+Career Assessment Page
+
+An interactive quiz to collect user details:
+
+Interests
+
+Current education level
+
+Skills they have
+
+Career goals
+
+After submission, generate career suggestions using basic AI logic or placeholder recommendations.
+
+Recommendations Page
+
+Show personalized suggestions:
+
+Career paths with descriptions.
+
+Suggested courses with links.
+
+Skills to develop.
+
+Include a progress tracker.
+
+Learning Hub
+
+Searchable list of free and paid courses (mock data or API integration).
+
+Categories:
+
+Tech & IT
+
+Business
+
+Design
+
+Healthcare
+
+Finance
+
+Resume & Interview Prep Page
+
+Resume tips and downloadable templates.
+
+Common interview questions and answers.
+
+Contact & Support Page
+
+Contact form (save messages to database).
+
+Basic FAQ section.
+
+Technical Requirements
+
+Frontend:
+
+Use React for a modern, responsive UI.
+
+Tailwind CSS for styling.
+
+Mobile-friendly layout.
+
+Backend:
+
+Use Node.js and Express.js.
+
+SQLite database for storing users, assessment results, and saved courses.
+
+Authentication:
+
+Implement JWT-based authentication for login sessions.
+
+Hosting:
+
+Deploy on Replit free plan with .repl.co domain.
+
+Site should be functional even if it goes to sleep when inactive.
+
+Additional Notes
+
+Make the code clean, modular, and easy to edit.
+
+Use mock data for courses and career recommendations if external APIs are not available.
+
+Ensure clear navigation between pages with a navbar.
+
+Include error handling and friendly messages for users.
+
+"Start by setting up the project structure with separate folders for frontend and backend, then build step-by-step, starting with authentication."
